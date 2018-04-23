@@ -1,4 +1,4 @@
-// Tab Panels - Starter functonality
+// Tab Panels - This was already here!
 $(document).ready(function(){
 	// grab all container panel DIVs
 	var tabContainers = $('div.tabs > div');
@@ -22,13 +22,13 @@ $(document).ready(function(){
 	});
 });
 
-// GreenSock Animation:
+// GreenSock Animation - This functionality is mine!:
 
 // Using the TweenMax CDN to animate elements on the page, in this case, any 'p' tags
 TweenMax.staggerFrom('p', 1.5, {opacity: 0, scale: .5}, 1);
 // Background Colour set to red before fading
 TweenMax.staggerFrom('p', 5, {backgroundColor:"red"}, 2);
-// Changes font style to italic for 6 seconds
+// Changes font style to italic for 6 seconds, afterwhich switches back to normal.
 TweenMax.staggerFrom('p', 6, {fontStyle:"italic"}, 6);
 
 // Using GreenSock, create a large delay for the third tab to display HTML content.
